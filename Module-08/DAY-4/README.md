@@ -16,8 +16,8 @@
  ```
 /*
 Program to implement a Buffer Input/Output Stream using Java
-Developed by: KEERTHANA S
-RegisterNumber: 212222230066
+Developed by: PAVITHRA R
+RegisterNumber: 212222230106
 */
 ```
 
