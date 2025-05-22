@@ -24,22 +24,58 @@
  ```
 /*
 Program to implement a JAVA TREE MAP using Java
-Developed by: 
-RegisterNumber:  
+Developed by: PAVITHRA R
+RegisterNumber: 212222230106
 */
 ```
 
 ## Sourcecode.java:
 
+```
+import java.util.*;  
+public class Ex {  
+   public static void main(String args[]){  
+  
 
+   TreeMap<String,String> tree_map1=new TreeMap<String,String>();      
+  
+ 
+   Scanner sc=new Scanner(System.in);
+   int size=sc.nextInt();
+   for(int i=0;i<size;i++)
+   {
+      String n1 = sc.next();
+      String s1= sc.next();
+       
+   	  tree_map1.put(n1,s1);  
+   }
+    
+  System.out.println(tree_map1);
+        if(tree_map1.containsKey("C1")){
+            System.out.println("The Tree Map contains key C1");
+        } else {
+            System.out.println("The Tree Map does not contain key C1");
+        }
+        if(tree_map1.containsKey("C5")){
+            System.out.println("The Tree Map contains key C5");
+        } else {
+            System.out.println("The TreeMap does not contain key C5");
+        }
+    }
+}
 
-
-
-
+```
 
 ## OUTPUT:
-
-
-
+```
+Input                 	Result
+3               {C1=Red, C2=Green, C5=Blue}
+C1              The Tree Map contains key C1
+Red             The Tree Map contains key C5
+C2
+Green
+C5
+Blue
+```
 ## RESULT:
 Thus the Java program to associate the specified value with the specified key in a Tree Map was executed successfully.
